@@ -1,0 +1,94 @@
+html, body{
+    margin: 0; 
+    padding: 0;
+}
+
+body{
+    background-color: #FFFFFF;
+    font-family: Georgia, serif;
+}
+
+nav{
+    background-color: #664605;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content:space-around;
+  }
+  
+  nav ul li {
+    margin: 0;
+  }
+  
+  nav ul li a {
+    display: block;
+    padding: 20px 15px;
+    text-decoration: none;
+    color: #F9F6F2;
+  }
+  
+  nav ul li a:hover {
+    background-color: #555;
+  }
+
+.business{
+    text-align: center;
+    padding: 30px 0;
+    font-size: 20px;
+    background-color: #B3907A;
+}
+
+.aboutbussiness{
+    display: flex;
+    align-items: center;
+    background-color: #BCA576; 
+}
+
+.text{
+    display: flex;
+    justify-content: space-around;
+    flex: 2;
+    padding: 50px;
+}
+
+#change{
+    font-size: 30px;
+}
+
+.imgh{
+    flex-basis: 30%;
+    padding: 30px;
+}
+
+.image{
+    max-width: 100%;
+    max-height: 100%;
+    flex-shrink: 0;
+
+}
+
+.homeimages{
+    display:flex;
+    width: 100hv; /* Set the container to the viewport width */
+    height: 100vh; /* Set the container to the viewport height */
+    overflow: hidden; /* Hide overflowing content */
+}
+
+.front{
+    flex: 1; 
+    object-fit: cover;
+}
+
+.footer-container{
+    display: flex; 
+    background-color: beige; 
+    justify-content: space-around; 
+    padding: 20px; 
+}
+
+.special{
+    font-size: 30px; 
+}
