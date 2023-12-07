@@ -5,7 +5,7 @@ html, body{
 
 body{
     background-color: #FFFFFF;
-    font-family: Georgia, serif;
+ /**   font-family: Georgia, serif;**/
 }
 
 nav{
