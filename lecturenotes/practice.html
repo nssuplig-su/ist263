@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            width: 80%;
+            margin: 0 auto; 
+        }
+        header{
+            background-color: pink; 
+        }
+        header::after{
+            content: '';
+            display: table; 
+            clear: both; 
+        }
+        p{
+            float: left; 
+        }
+        nav{
+            float: right; 
+        }
+        nav ul {
+            margin: 0;
+            padding: 0; 
+            list-style: none; 
+        }
+        nav li{
+            display: inline-block; 
+            margin-left: 70px;
+            padding-top: 17px; 
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class = "container">
+            <p> Miguel's Shoe Repair </p>
+            <nav>
+                <ul>
+                    <li>Home</li>
+                    <li>Services</li>
+                    <li>Menu </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+</body>
+</html>
